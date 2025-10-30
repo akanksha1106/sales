@@ -1,10 +1,12 @@
 # sales
- Task 2: Write Complex SQL Queries for Reporting
+#  Write Complex SQL Queries for Reporting
 Objective
+
 To generate sales reports using complex SQL queries such as daily totals, average transaction value, top-selling products, and city-wise sales summaries.
 The goal is to simulate a real-world data reporting scenario where SQL is used to extract meaningful business insights from raw sales data.
 
-💡 What I Built
+ # What I Built
+
 I created a complete Sales Reporting System using MySQL Workbench that includes:
 
 
@@ -28,11 +30,18 @@ City-wise Total Sales
 
 
 
-A summary report and screenshots of all outputs.
+ screenshots of all outputs.
+  <img width="1363" height="721" alt="sales_screenshot" src="https://github.com/user-attachments/assets/2d1da21b-2dd2-459e-92e8-1fb417baff76" />
+
+  <img width="1364" height="728" alt="sales2" src="https://github.com/user-attachments/assets/c56ff24b-1333-43f4-972c-35821039c446" />
+
+  <img width="1366" height="770" alt="total_revenue" src="https://github.com/user-attachments/assets/f136eadd-fdad-4e4f-bc6b-e83f5476ac3c" />
+
+  <img width="1366" height="720" alt="city" src="https://github.com/user-attachments/assets/68790c99-0830-4682-ae58-907c71402e30" />
 
 
 
-🎯 Why I Built It
+ # Why I Built It
 This task demonstrates my ability to:
 
 
@@ -49,7 +58,7 @@ Gain hands-on experience with data analytics using SQL.
 
 
 
-⚙️ How I Built It
+# How I Built It
 Step 1: Tools Used
 
 
@@ -76,6 +85,7 @@ order_details — stores order line items
 
 
 Each table is linked using foreign keys, ensuring referential integrity.
+
 Step 3: Data Insertion
 Inserted sample data for:
 
@@ -90,6 +100,7 @@ Inserted sample data for:
 
 
 This simulated real-world sales transactions.
+
 Step 4: Query Development
 Wrote SQL queries using:
 
@@ -125,41 +136,3 @@ Top 3 Products by Revenue
 City-wise Total Sales
 
 
-Captured screenshots of outputs from MySQL Workbench.
-
-📈 Example Outputs
-ReportDescriptionDaily SalesTotal revenue generated per dayAverage TransactionMean sales value per orderTop ProductsProducts ranked by revenueCity SalesRevenue contribution by each city
-
-📂 Deliverables
-
-
-sales_report.sql → SQL script (database + queries)
-
-
-screenshots/ → Folder containing screenshots of outputs
-
-
-summary_report.pdf → Summary of insights
-
-
-README.md → (this file)
-
-
-
-🧩 Key Learnings
-
-
-Building multi-table relationships using foreign keys.
-
-
-Using aggregate and analytical queries for insights.
-
-
-Understanding data reporting workflows in SQL.
-
-
-Applying SQL for real business analysis tasks.
-
-
-
-Would you like me to generate this as a README.md file or as a Word/PDF summary report (ready to upload)?
