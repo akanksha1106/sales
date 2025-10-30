@@ -59,7 +59,7 @@ Gain hands-on experience with data analytics using SQL.
 
 
 # How I Built It
-Step 1: Tools Used
+ - Step 1: Tools Used
 
 
 MySQL Workbench → for database design and query execution.
@@ -68,7 +68,7 @@ MySQL Workbench → for database design and query execution.
 SQL language → for data manipulation and report generation.
 
 
-Step 2: Database Design
+- Step 2: Database Design
 Created a schema named SalesReportDB with the following tables:
 
 
@@ -86,7 +86,7 @@ order_details — stores order line items
 
 Each table is linked using foreign keys, ensuring referential integrity.
 
-Step 3: Data Insertion
+- Step 3: Data Insertion
 Inserted sample data for:
 
 
@@ -101,7 +101,7 @@ Inserted sample data for:
 
 This simulated real-world sales transactions.
 
-Step 4: Query Development
+- Step 4: Query Development
 Wrote SQL queries using:
 
 
@@ -120,7 +120,7 @@ Aggregate functions → SUM(), AVG() for totals and averages
 LIMIT → to restrict results for top products
 
 
-Step 5: Reporting
+- Step 5: Reporting
 Generated and verified the following reports:
 
 
